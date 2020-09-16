@@ -11,7 +11,8 @@ latinov7_18 = '%s/../skim/results/latinov7_18/'   % cwd
 
 nanoV7_16 = '%s/../skim/results/Full2016v7_102X/' % cwd
 nanoV7_17 = '%s/../skim/results/Full2017v7_102X/' % cwd
-nanoV7_18 = '%s/../skim/results/Full2018v7_102X/' % cwd
+#nanoV7_18 = '%s/../skim/results/Full2018v7_102X/' % cwd
+nanoV7_18 = '/eos/cms/store/group/phys_higgs/cmshww/arun/CMSDAS2020_TnP/'
 
 nanov5_16 = {
     'DYJetsToLL_M-50-LO_ext2' : tnpSample('DYJetsToLL_M-50-LO_ext2',
@@ -138,7 +139,7 @@ nanov7_18 = {
                                       nanoV7_18 + 'DYJetsToLL_M-50_ext2.root',
                                       isMC = True, nEvts =  -1 ),
 
-    'data_Run2018' : tnpSample('EGamma' , nanoV7_18 + 'EGamma.root' , lumi = 59.74 ),
+    'data_Run2018' : tnpSample('EGamma' , nanoV7_18 + 'EGamma_Run2018.root' , lumi = 59.74 ),
 
 }
 
